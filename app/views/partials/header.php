@@ -12,7 +12,7 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-2">
 <?php require 'nav.php' ?>
         </div>
         <div class="col-md-9">

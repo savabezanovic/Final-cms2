@@ -18,7 +18,6 @@ return array(
     'App\\Core\\AuthGuard' => $baseDir . '/core/AuthGuard.php',
     'App\\Core\\Request' => $baseDir . '/core/Request.php',
     'App\\Core\\Router' => $baseDir . '/core/Router.php',
-    'App\\Core\\Task' => $baseDir . '/core/Task.php',
     'ComposerAutoloaderInit52c35b76280ec3e6f8aa7955b86c5a18' => $vendorDir . '/composer/autoload_real.php',
     'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
     'Composer\\Autoload\\ComposerStaticInit52c35b76280ec3e6f8aa7955b86c5a18' => $vendorDir . '/composer/autoload_static.php',

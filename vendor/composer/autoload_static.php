@@ -19,7 +19,6 @@ class ComposerStaticInit52c35b76280ec3e6f8aa7955b86c5a18
         'App\\Core\\AuthGuard' => __DIR__ . '/../..' . '/core/AuthGuard.php',
         'App\\Core\\Request' => __DIR__ . '/../..' . '/core/Request.php',
         'App\\Core\\Router' => __DIR__ . '/../..' . '/core/Router.php',
-        'App\\Core\\Task' => __DIR__ . '/../..' . '/core/Task.php',
         'ComposerAutoloaderInit52c35b76280ec3e6f8aa7955b86c5a18' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
         'Composer\\Autoload\\ComposerStaticInit52c35b76280ec3e6f8aa7955b86c5a18' => __DIR__ . '/..' . '/composer/autoload_static.php',

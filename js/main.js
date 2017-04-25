@@ -27,3 +27,8 @@ function warnBeforeRedirect(linkURL) {
 
         });
 }
+// $("li").on("click",function() {
+//     $("li").removeClass("active");
+//     $(this).addClass("active");
+//     alert("osmoci");
+// });

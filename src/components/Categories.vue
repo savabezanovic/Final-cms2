@@ -1,10 +1,10 @@
 <template>
     <div>
-
+        <h1>Hello Categories</h1>
         <nav class="navbar-fixed-top-center new-margin" >
             <ul class="nav nav-pills" >
                 <li role="presentation" class="active" v-for="category in categories">
-                    <a  v-bind:href="'/#/categories/' + category.id" @click="clicked" class="btn btn-primary">
+                    <a  v-bind:href="'/#/categories/' + category.id" @click="clicked">
                     {{category.name}}
                     </a>
                 </li>
@@ -47,6 +47,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
     h1, h2 {
         font-weight: normal;
     }

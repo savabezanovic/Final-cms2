@@ -4,7 +4,7 @@
         <a href="/admin/products/new"  class="btn btn-primary new-margin">Add new <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
     </div>
 </div>
-<table class="table table-responsive table-hover table-bordered">
+<table class="table table-responsive table-hover table-bordered products">
     <h1>Products</h1>
     <tr>
 

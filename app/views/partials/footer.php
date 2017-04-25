@@ -1,11 +1,9 @@
 </div>
 </div>
-<div class="col-xs-12" style="text-align: center"><small>Copyrigth &copy; CMS. All rights reserved.</small></div>
+
 </div>
 <script
-    src="https://code.jquery.com/jquery-3.2.1.js"
-    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-    crossorigin="anonymous"></script>
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 <script src="https://cdn.jsdelivr.net/sweetalert2/6.5.6/sweetalert2.js"></script>
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>

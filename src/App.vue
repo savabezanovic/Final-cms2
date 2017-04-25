@@ -1,19 +1,24 @@
 <template>
+<div>
 
 
-    <nav class="navbar-fixed-top-center new-margin">
+         <div class="col-md-2">
+            <nav class="menu-left">
+                        <ul class="nav nav-pills nav-stacked">
+                            <li class="active"><a href="/#/">HOME</a></li>
+                            <li class="active"><a href="/#/staff">STAFF</a></li>
+                            <li class="active"><a href="/#/products">PRODUCTS</a></li>
+                            <li class="active"><a href="/#/categories">CATEGORY</a></li>
+                            <li class="active"><a href="/admin/login">ADMIN LOGIN</a></li>
+                        </ul>
+            </nav>
+    </div>
 
-        <ul class="nav nav-pills new-margin-categories">
+        <div class="col-md-9">
+            <router-view></router-view>
+        </div>
 
-            <li role="presentation" class="active"><a href="/#/">Home</a></li>
-
-          <li role="presentation"><a href="/#/staff">Staff</a></li>
-          <li role="presentation"><a href="/#/products">Products</a></li>
-          <li role="presentation"><a href="/#/categories">Category</a></li>
-            <li role="presentation" class="admin-login"><a href="/admin/login">Admin login</a></li>
-        </ul>
-      <router-view></router-view>
-      </nav>
+</div>
 
 
 
@@ -21,19 +26,24 @@
 
 <script>
   export default {
-    name: 'app'
+    name: 'app',
+//      data:function(){
+//        return {}
+//      }
 
   }
+//  methods:{
+//      alert: function(){
+//          $("li").on("click",function() {
+//              $("li").removeClass("active");
+//              $(this).addClass("active");
+//              alert("osmoci");
+//          });
+//      }
+//  }
+
 </script>
 
-<style>
-
-    .new-margin{
-        margin-top: 10px;
-    }
-
-    .new-margin-categories{
-        margin-bottom: 20px;
-    }
+<style >
 
 </style>

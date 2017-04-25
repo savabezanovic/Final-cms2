@@ -1,5 +1,7 @@
 <template>
+<div>
 
+    <h1>Hello Products</h1>
     <table class="table table-hover table-inverse table-bordered" >
         <thead>
         <tr >
@@ -18,13 +20,9 @@
         </tr>
         </tbody>
     </table>
+</div>
 
 
-    <!--<div>-->
-
-        <!--<li v-for="product in products">{{product.name}}</li>-->
-
-    <!--</div>-->
 </template>
 
 <script>
@@ -48,6 +46,15 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+    /*h1 {*/
+        /*margin-top: 100px;*/
+    /*}*/
+    /*table{*/
+        /*margin-top: 50px;*/
+        /*background-color: ;*/
+    /*}*/
+
     h1, h2 {
         font-weight: normal;
     }

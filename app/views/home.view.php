@@ -11,21 +11,15 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-
 <div class="container">
-    <div id="app"></div>
+    <div class="row">
+
+        <div id="app"></div>
+
+    </div>
 </div>
-
-
-
-
-<div style="text-align: center"><small>Copyrigth &copy; CMS. All rights reserved.</small></div>
-
-
 <script
-    src="https://code.jquery.com/jquery-3.2.1.js"
-    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-    crossorigin="anonymous"></script>
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 <script src="dist/sweetalert.min.js"></script>
 <script src="/js/main.js"></script>
 <script src="/dist/build.js"></script>

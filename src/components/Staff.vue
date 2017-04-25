@@ -1,5 +1,6 @@
 <template>
-
+    <div>
+    <h1>Hello Staff</h1>
     <table class="table table-hover table-inverse table-bordered" >
         <thead>
         <tr >
@@ -18,13 +19,9 @@
         </tr>
         </tbody>
     </table>
-    <!--<div>-->
 
-            <!--<li v-for="member in staff">{{member.name}}</li>-->
-
-    <!--</div>-->
 </template>
-
+</div>
 <script>
     export default {
         name: 'staff',
@@ -46,6 +43,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    /*div {*/
+        /*height: 850px;*/
+    /*}*/
     h1, h2 {
         font-weight: normal;
     }

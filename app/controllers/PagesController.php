@@ -7,5 +7,4 @@ class PagesController {
     return view('home');
 
     }
-
 }

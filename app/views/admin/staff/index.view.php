@@ -1,6 +1,6 @@
 <?php require 'app/views/partials/header.php'; ?>
 <div class="row">
-    <div class="col-md-12 text-right padding-30">
+    <div class="col-md-12 text-right">
         <a href="/admin/staff/new"  class="btn btn-primary new-margin">Add new <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
     </div>
 </div>
