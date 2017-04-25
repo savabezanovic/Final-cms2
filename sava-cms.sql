@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 20, 2017 at 02:11 PM
+-- Generation Time: Apr 25, 2017 at 05:45 PM
 -- Server version: 10.1.9-MariaDB-log
 -- PHP Version: 7.0.10
 
@@ -38,7 +38,7 @@ CREATE TABLE `categories` (
 
 INSERT INTO `categories` (`id`, `name`, `completed`) VALUES
 (1, 'Pizza', 1),
-(2, 'Palacinke', NULL);
+(2, 'Palacinke', 1);
 
 -- --------------------------------------------------------
 
@@ -66,15 +66,15 @@ INSERT INTO `products` (`id`, `name`, `price`, `completed`, `category_id`) VALUE
 (5, 'Ljutizza', 880, NULL, 1),
 (6, 'New York', 880, NULL, 1),
 (7, 'Pepperoni', 880, NULL, 1),
-(8, 'Tuna', 770, NULL, 1),
+(8, 'Tuna', 770, 1, 1),
 (9, 'Carbonara', 880, NULL, 1),
 (10, 'Margherita', 880, NULL, 1),
-(11, 'Palacinka Dzem', 500, NULL, 2),
+(11, 'Palacinka Dzem', 500, 1, 2),
 (12, 'Palacinka Keks Kokos Evrokrem', 700, NULL, 2),
 (13, 'Slana Palacinka Kulen', 700, NULL, 2),
 (14, 'Slana Palacinka Pecenica', 700, NULL, 2),
-(15, 'Slana Palacinka Pecurke Suvi Vrat', 800, NULL, 2),
-(16, 'Prazna Palacinka', 100, NULL, 2);
+(15, 'Slana Palacinka Pecurke Suvi Vrat', 800, 1, 2),
+(16, 'Prazna Palacinka', 100, 1, 2);
 
 -- --------------------------------------------------------
 
@@ -102,7 +102,9 @@ INSERT INTO `staff` (`id`, `name`, `profesion`, `phone`, `completed`) VALUES
 (6, 'Dragana Kreca', 'Pizza Master', '0684297265', NULL),
 (7, 'Vesna Marceta', 'Cashier', '0678945321', NULL),
 (8, 'Rudi Aj', 'Delivery', '0684126487', NULL),
-(9, 'Sava Bezanovic', 'Overlord', '0691847057', NULL);
+(9, 'Sava Bezanovic', 'Overlord', '0691847057', NULL),
+(10, 'Radovan Marceta', 'Degustator', '0698754215', 1),
+(11, 'Marko Peric', 'Interior Designer', '0698745213', 1);
 
 -- --------------------------------------------------------
 
@@ -165,12 +167,12 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 --
 -- AUTO_INCREMENT for table `staff`
 --
 ALTER TABLE `staff`
-  MODIFY `id` int(45) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(45) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 --
 -- AUTO_INCREMENT for table `users`
 --
