@@ -5,7 +5,7 @@
     <table class="table table-hover table-inverse table-bordered" >
         <thead>
         <tr >
-            <!--<th>id</th>-->
+
             <th>Name</th>
             <th>Price</th>
             <th>Category</th>
@@ -13,7 +13,7 @@
         </thead>
         <tbody>
         <tr v-for="product in products">
-            <!--<th>{{product.id}}</th>-->
+
             <td>{{product.name}}</td>
             <td>{{product.price}}.00din</td>
             <td>{{product.categories}}</td>
@@ -44,16 +44,10 @@
     }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
 
-    /*h1 {*/
-        /*margin-top: 100px;*/
-    /*}*/
-    /*table{*/
-        /*margin-top: 50px;*/
-        /*background-color: ;*/
-    /*}*/
+
 
     h1, h2 {
         font-weight: normal;

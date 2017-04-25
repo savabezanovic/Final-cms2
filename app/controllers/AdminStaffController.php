@@ -10,9 +10,7 @@ class AdminStaffController {
         return view('admin/staff/index', compact('staff')); //['products' => $products]
     }
 
-    /*
-     * Displays edit form
-     */
+
     public function edit()
     {
         $id = (int)$_GET['id'];
@@ -21,9 +19,7 @@ class AdminStaffController {
         return view('admin/staff/edit', compact('staff'));
     }
 
-    /*
-    Update the task
-    */
+
     public function update()
     {
         if(!isset($_POST['completed'])) {

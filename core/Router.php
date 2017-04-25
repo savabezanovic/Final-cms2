@@ -4,7 +4,7 @@ class Router {
 
     public $routes = [];
 
-    public static function load($file) ///routes.php
+    public static function load($file)
     {
         $routes = new static;
 

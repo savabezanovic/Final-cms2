@@ -10,9 +10,7 @@ class AdminProductsController {
         return view('admin/products/index', compact('products')); //['products' => $products]
     }
 
-    /*
-     * Displays edit form
-     */
+
     public function edit()
     {
 
@@ -24,9 +22,7 @@ class AdminProductsController {
         return view('admin/products/edit', compact('products', 'categories'));
     }
 
-    /*
-    Update the task
-    */
+
     public function update()
     {
         if(!isset($_POST['completed'])) {

@@ -20,6 +20,7 @@
     <td><?= $staff->name ?></td>
     <td><?= $staff->profesion ?></td>
     <td><?= $staff->phone ?></td>
+
     <td class="text-center"><?= ($staff->completed) ? "<span class=\"glyphicon glyphicon-ok\" aria-hidden=\"true\"></span>" : "<span class=\"glyphicon glyphicon-remove\" aria-hidden=\"true\"></span>" ?></td>
     <td class="text-center">
         <a href="/admin/staff/edit?id=<?= $staff->id ?>" class="btn btn-warning"><span class="glyphicon glyphicon-pencil"

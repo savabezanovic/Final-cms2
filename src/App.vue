@@ -27,20 +27,9 @@
 <script>
   export default {
     name: 'app',
-//      data:function(){
-//        return {}
-//      }
 
   }
-//  methods:{
-//      alert: function(){
-//          $("li").on("click",function() {
-//              $("li").removeClass("active");
-//              $(this).addClass("active");
-//              alert("osmoci");
-//          });
-//      }
-//  }
+
 
 </script>
 

@@ -6,7 +6,7 @@ class StaffController {
     public function index()
     {
         $staf = App::get('database')->getAll('staff');
-//        return view('products', compact('products'));
+
         header('Content-Type: application/json');
         echo json_encode($staf);
         return;

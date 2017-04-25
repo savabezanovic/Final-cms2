@@ -4,7 +4,7 @@
     <table class="table table-hover table-inverse table-bordered" >
         <thead>
         <tr >
-            <!--<th>id</th>-->
+
             <th>Name</th>
             <th>Profesion</th>
             <th>Phone</th>
@@ -12,7 +12,7 @@
         </thead>
         <tbody>
         <tr v-for="member in staff">
-            <!--<th>{{member.id}}</th>-->
+
             <td>{{member.name}}</td>
             <td>{{member.profesion}}</td>
             <td>{{member.phone}}</td>
@@ -41,11 +41,9 @@
     }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
-    /*div {*/
-        /*height: 850px;*/
-    /*}*/
+
     h1, h2 {
         font-weight: normal;
     }

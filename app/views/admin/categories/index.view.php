@@ -5,6 +5,7 @@
     </div>
 </div>
 <table class="table table-responsive table-hover table-bordered">
+
     <h1>Products Category</h1>
     <tr>
 

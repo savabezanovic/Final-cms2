@@ -10,9 +10,6 @@ class AdminCategoriesController {
         return view('admin/categories/index', compact('categories')); //['products' => $products]
     }
 
-    /*
-     * Displays edit form
-     */
     public function edit()
     {
         $id = (int)$_GET['id'];
@@ -21,9 +18,7 @@ class AdminCategoriesController {
         return view('admin/categories/edit', compact('categories'));
     }
 
-    /*
-    Update the task
-    */
+
     public function update()
     {
         if(!isset($_POST['completed'])) {

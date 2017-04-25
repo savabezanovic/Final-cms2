@@ -6,7 +6,7 @@ class CategoriesController {
     public function index()
     {
         $categories = App::get('database')->getAll('categories');
-//        return view('products', compact('products'));
+
         header('Content-Type: application/json');
         echo json_encode($categories);
         return;

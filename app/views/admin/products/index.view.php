@@ -16,9 +16,11 @@
     </tr>
     <?php foreach ($products as $product): ?>
         </tr>
+
         <td><?= $product->name ?></td>
         <td><?= $product->price ?>.00 din</td>
         <td><?= $product->categories ?></td>
+
         <td class="text-center"><?= ($product->completed) ? "<span class=\"glyphicon glyphicon-ok\" aria-hidden=\"true\"></span>" : "<span class=\"glyphicon glyphicon-remove\" aria-hidden=\"true\"></span>" ?></td>
         <td class="text-center">
             <a href="/admin/products/edit?id=<?= $product->id ?>" class="btn btn-warning"><span class="glyphicon glyphicon-pencil"

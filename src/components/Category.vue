@@ -7,7 +7,7 @@
         <table class="table table-hover table-inverse table-bordered" >
             <thead>
             <tr >
-                <!--<th>id</th>-->
+
                 <th>Name</th>
                 <th>Price</th>
 
@@ -15,7 +15,7 @@
             </thead>
             <tbody>
             <tr v-for="product in products">
-                <!--<th>{{member.id}}</th>-->
+
                 <td>{{product.name}}</td>
                 <td>{{product.price}}.00 din</td>
 
@@ -69,7 +69,7 @@
     }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
 
 
